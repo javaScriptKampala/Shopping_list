@@ -1,0 +1,41 @@
+{
+  "name": "shopping_list_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "eslint": "eslint ./",
+    "start": "nodemon -r './.module' ./app.js"
+  },
+  
+"repository": {
+  "type": "git",
+  "url": "git+https://github.com/baliksjosay/shopping_list.git"
+},
+"keywords": [
+  "baliks",
+  "shoppinglist",
+  "node",
+  "js",
+  "Balikuddembe"
+],
+  
+  "author": "Joseph Balikuddembe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/baliksjosay/shopping_list/issues"
+  },
+  "homepage": "https://github.com/baliksjosay/shopping_list#readme",
+  "dependencies": {
+    "config": "^3.3.0",
+    "ejs": "^2.7.4",
+    "express": "^4.17.1",
+    "mariadb": "^2.2.0",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
+
+
