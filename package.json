@@ -7,19 +7,17 @@
     "eslint": "eslint ./",
     "start": "nodemon -r './.module' ./app.js"
   },
-  
-"repository": {
-  "type": "git",
-  "url": "git+https://github.com/baliksjosay/shopping_list.git"
-},
-"keywords": [
-  "baliks",
-  "shoppinglist",
-  "node",
-  "js",
-  "Balikuddembe"
-],
-  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baliksjosay/shopping_list.git"
+  },
+  "keywords": [
+    "baliks",
+    "shoppinglist",
+    "node",
+    "js",
+    "Balikuddembe"
+  ],
   "author": "Joseph Balikuddembe",
   "license": "ISC",
   "bugs": {
@@ -37,5 +35,3 @@
     "nodemon": "^1.18.10"
   }
 }
-
-

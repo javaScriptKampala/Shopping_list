@@ -26,6 +26,13 @@ app.get('/', (req, res) => {
       }
     );
   });
+  //route to adding new teanant
+  app.get('/addTenant', (req, res)=> {
+    connection.query(
+      'SELECT * FROM '
+      
+    )
+  })
   
   //route to  create new item page
   app.get('/new', (req, res) => {
